@@ -38,12 +38,12 @@ get_header(); ?>
 				<div class="services-item">
 					<div class="services-media">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/shuttle-services.jpg" alt="Shuttle" />
-						<a href="#shuttle" class="services-link anchor">
+						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" class="services-link ">
 							<span>Read More</span> <i class="icon-angle-right"></i>
 						</a>
 					</div>
 					<div class="services-info">
-						<a href="#shuttle" class="anchor"><h3>Shuttle Services</h3></a>
+						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" ><h3>Shuttle Services</h3></a>
 						<p>
 							We serve the following destinations to/from Nat Costa Ricaingo - Conchal - Playa Grande - Pinilla
 						</p>
@@ -53,12 +53,12 @@ get_header(); ?>
 				<div class="services-item">
 					<div class="services-media">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/tours-activities.jpg" alt="Tours" />
-						<a href="#tours" class="services-link anchor">
+						<a href="<?php echo esc_url(home_url('/tours-activities')); ?>" class="services-link ">
 							<span>Read More</span> <i class="icon-angle-right"></i>
 						</a>
 					</div>
 					<div class="services-info">
-						<a href="#tours" class="anchor"><h3>Tours & activities</h3></a>
+						<a href="<?php echo esc_url(home_url('/tours-activities')); ?>" ><h3>Tours & activities</h3></a>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis rem possimus ipsam odit vel 
 						</p>
