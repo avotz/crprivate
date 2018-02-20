@@ -52,6 +52,17 @@
 	
 </div><!-- #page -->
 
+   <div id="tour-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+		<?php echo do_shortcode('[contact-form-7 id="183" title="Book Tour"]');
+	?>               
+	    
+	</div>
+	 <div id="shuttle-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+		<?php echo do_shortcode('[contact-form-7 id="184" title="Book Shuttle"]');
+	?>               
+	    
+	</div>
+
 <?php wp_footer(); ?>
 
 </body>

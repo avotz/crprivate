@@ -10,8 +10,8 @@ get_header(); ?>
 	  	  <div class="item" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner1.jpg');">
 	  	  	<div class="inner">
 	  	  		<div class="item-info txt-center">
-	  	  			<h1>CR Private tours</h1>
-	  	  			<p>lorem ipsum</p>
+	  	  			<h1>Private tours</h1>
+	  	  			<p>Costa Rica</p>
 	  	  			
 	  	  		</div>
 	  	  		

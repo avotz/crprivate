@@ -174,6 +174,8 @@ function carga_estilos_home()
 		//wp_enqueue_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap2.min.css' );
 		//wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css' );
 	}
+	wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css' );
+	wp_enqueue_style('flatpickr', get_template_directory_uri() . '/css/flatpickr.min.css');
 	
 	wp_register_style( 'bundle',
 		get_template_directory_uri() . '/css/bundle.css',

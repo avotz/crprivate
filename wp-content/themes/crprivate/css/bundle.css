@@ -673,6 +673,11 @@ img {
   transform: translateZ(0);
   background-color: azul;
 }
+.btn-red {
+  background-color: red;
+  color: #fff !important;
+  display:block;
+}
 .btn:hover {
   background-color: #000;
   color: #fff;
@@ -1135,6 +1140,7 @@ hr.style1{
 .tour-details{
    width:35%;
 }
+
 .tour-details .dt, .shuttle-details .dt{
   background-color: #82BD9E;
   display:block;
@@ -1150,6 +1156,10 @@ hr.style1{
 }
 .tour-details .dd ul, .shuttle-details .dd ul{
   margin-left: 35px;
+}
+
+.shuttle-details h2{
+   margin-top: 1rem;
 }
 
 .shuttle {
@@ -1396,13 +1406,15 @@ hr.style1{
 .contact-container .col-md-6{
     width: 100%;
   }
-  .contact-container input[type="text"], .contact-container input[type="email"], .contact-container input[type="number"]{
+  input[type="text"], input[type="email"], input[type="number"], textarea{
     width: 100%
   }
-.contact-container textarea{
+  
+textarea{
     height: 90px;
     width: 100%
   }
+  
 .contact-container iframe{
     height: 450px;
     width: 100%

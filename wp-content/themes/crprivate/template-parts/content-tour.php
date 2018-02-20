@@ -44,7 +44,7 @@
 	<header class="entry-header tour-header">
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title('<h1 class="entry-title">', '</h1>');
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
@@ -64,6 +64,7 @@
 			?>
 			</div>
 			<div class="tour-details">
+				
 				<div class="dl">
 					<?php if(rwmb_meta('rw_op_title_1')) : ?>
 						<div class="dt btn btn-celeste"><?php
@@ -71,6 +72,8 @@
 						<div class="dd hidden" style="display: block;">
 							<?php
 								echo do_shortcode(rwmb_meta('rw_op_details_1')); ?>
+
+							<a href="#tour-popup" class="btn btn-red tour-popup-link" data-title="<?php echo rwmb_meta('rw_op_title_1') ?>">Inquiry now</a>
 						</div>
 					<?php endif; ?>
 					<?php if(rwmb_meta('rw_op_title_2')) : ?>
@@ -79,6 +82,7 @@
 						<div class="dd hidden" >
 							<?php
 								echo do_shortcode(rwmb_meta('rw_op_details_2')); ?>
+							<a href="#tour-popup" class="btn btn-red tour-popup-link" data-title="<?php echo rwmb_meta('rw_op_title_2') ?>">Inquiry now</a>
 						</div>
 					<?php endif; ?>
 					<?php if(rwmb_meta('rw_op_title_3')) : ?>
@@ -87,6 +91,7 @@
 						<div class="dd hidden" >
 							<?php
 								echo do_shortcode(rwmb_meta('rw_op_details_3')); ?>
+							<a href="#tour-popup" class="btn btn-red tour-popup-link" data-title="<?php echo rwmb_meta('rw_op_title_3') ?>">Inquiry now</a>
 						</div>
 					<?php endif; ?>
 					<?php if(rwmb_meta('rw_op_title_4')) : ?>
@@ -95,6 +100,7 @@
 						<div class="dd hidden" >
 							<?php
 								echo do_shortcode(rwmb_meta('rw_op_details_4')); ?>
+								<a href="#tour-popup" class="btn btn-red tour-popup-link" data-title="<?php echo rwmb_meta('rw_op_title_4') ?>">Inquiry now</a>
 						</div>
 					<?php endif; ?>
 					

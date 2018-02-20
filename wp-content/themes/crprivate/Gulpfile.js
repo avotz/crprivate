@@ -33,7 +33,7 @@ gulp.task('js', function () {
       /*'./assets/js/vendor/jquery.isotope.min.js',*/
       /*'./assets/js/vendor/isotope.pkgd.min.js',*/
       
-      /*'./assets/js/vendor/jquery.magnific-popup.min.js',*/
+      './assets/js/vendor/jquery.magnific-popup.min.js',
      /* './assets/js/vendor/typewriter.js',
       /*'./assets/js/vendor/jquery.cycle2.min.js',*/
       /*'./assets/js/vendor/chosen.jquery.min.js',
@@ -41,7 +41,7 @@ gulp.task('js', function () {
       /*'./assets/js/vendor/jquery.uniform.js',*/
      /* './assets/js/vendor/jquery.onepagenav.js',
      /*'./assets/js/vendor/grid.js',*/
-
+    './assets/js/vendor/flatpickr.js',
       './assets/js/main.js'
 
     ])

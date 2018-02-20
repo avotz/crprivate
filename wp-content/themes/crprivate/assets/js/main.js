@@ -55,6 +55,79 @@
       /*singleItem:true*/
   });
 
+    $('.tour-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        removalDelay: 500, //delay removal by X to allow out-animation
+        callbacks: {
+            beforeOpen: function () {
+
+                this.st.mainClass = 'mfp-zoom-out';
+                $('body').addClass('mfp-open');
+            },
+            beforeClose: function () {
+
+
+                $('body').removeClass('mfp-open');
+            }
+
+        }
+
+
+    });
+
+    $('.tour-popup-link').on('click', function (e) {
+
+
+
+
+        $('#tour-popup').find('input[name="your-subject"]').val('Inquire for ' + $(this).attr('data-title'));
+
+
+
+
+    });
+
+    $('.shuttle-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        removalDelay: 500, //delay removal by X to allow out-animation
+        callbacks: {
+            beforeOpen: function () {
+
+                this.st.mainClass = 'mfp-zoom-out';
+                $('body').addClass('mfp-open');
+            },
+            beforeClose: function () {
+
+
+                $('body').removeClass('mfp-open');
+            }
+
+        }
+
+
+    });
+
+    $('.shuttle-popup-link').on('click', function (e) {
+
+
+
+
+        $('#shuttle-popup').find('input[name="your-subject"]').val('Inquire for ' + $(this).attr('data-title'));
+
+
+
+
+    });
+
+    $(".date").flatpickr({
+        minDate: "today",
+        onChange: function (selectedDates, dateStr, instance) {
+            //$('.filters').find('form').submit();
+        },
+    });
+
     
 
     // FUNCTION FOR FAQS

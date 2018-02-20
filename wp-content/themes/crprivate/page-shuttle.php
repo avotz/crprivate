@@ -62,7 +62,8 @@ get_header(); ?>
 
 						<div class="dt btn btn-celeste"><?php the_title(); ?></div>
 						<div class="dd hidden" <?php echo ($index == 0) ? 'style="display: block;"' : '' ?>>
-							<?php the_content(); ?>
+							<a href="#shuttle-popup" class="btn btn-red shuttle-popup-link" data-title="<?php the_title ();?>">Inquiry now</a>	
+						<?php the_content(); ?>
 						</div>
                     
                         
