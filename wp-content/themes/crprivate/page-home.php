@@ -118,7 +118,7 @@ get_header(); ?>
 					<li> <a href="<?php echo esc_url(home_url('/tour/guachipelin-adventure-tour/')); ?>">Guachipelin</a></li>
 					<li> <a href="<?php echo esc_url(home_url('/tour/nicaragua-tour-overnight/')); ?>">Nicaragua</a></li>
 					<li> <a href="<?php echo esc_url(home_url('/tour/white-water-rafting/')); ?>">White Water Rafting</a></li>
-					<li> <a href="<?php echo esc_url(home_url('/tour/rain-forest-arenal-volcano-full-day-tour-combinations/')); ?>">Arenal Volcanoe</a></li>
+					<li> <a href="<?php echo esc_url(home_url('/tour/rain-forest-arenal-volcano-full-day-tour-combinations/')); ?>">Arenal Volcano</a></li>
 				</ul>
 		</div>
 		<div class="tours-img" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/tours-home.jpg');">
