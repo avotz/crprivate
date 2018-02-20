@@ -1,0 +1,562 @@
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+
+turquesa = #65b6ad
+cafe = #483f30
+rojo = #ED202D
+verde = #9CC43B
+
+*
+	box-sizing border-box
+
+body
+	font-family 'Open Sans', sans-serif
+	font-size 16px
+	line-height 30px
+	/*background url('../img/bg.png')*/
+
+ul
+	margin 0
+	padding 0
+	
+
+a
+	text-decoration none
+	transition all .5s ease
+p 
+	margin-top 0
+	margin-bottom 1.25rem
+h1
+h2
+h3
+h4
+h5
+	font-family 'Raleway'
+	margin-top 0
+	font-weight 800
+	color #333333
+h1
+	line-height 45px
+
+img
+	max-width 100%
+	height auto
+.txt-center
+	text-align center
+.overflow
+	overflow hidden
+.btn
+	border 1px solid #fff
+	font-size inherit
+	color white
+	background 0 0
+	text-align center
+	cursor pointer
+	padding 10px 30px 10px
+	display inline-block
+	text-transform uppercase
+	outline 0
+	position relative
+	transition all .3s ease
+	transform translateZ(0)
+	background-color azul
+	&:hover
+		background-color: #000 
+		color white
+		//border-color rojo
+	
+.inner
+	max-width 1170px
+	margin 0 auto
+	padding-left 1rem
+	padding-right 1rem
+
+.header
+	text-align center
+	background-color white
+	&-logo
+		width 180px
+		padding-top 10px
+		display inline-block
+	&-contact
+		display block
+		&-item
+			display block
+			.social-item
+				display inline-block
+				color turquesa
+				font-size 1.5rem
+				padding .5rem
+	&-menu
+		display none
+		position absolute
+		top 200px
+		z-index 999
+		background-color turquesa
+		left 0
+		right 0
+		width 100%
+		
+		&-item 
+			display block
+		&-link
+			display block
+			padding .5rem
+			color white
+			font-family 'Raleway'
+			text-transform uppercase
+			&:hover
+				background-color cafe
+	&-btn-menu
+		display block
+		background-color transparent
+		border none
+		color cafe
+		font-size 2rem
+		outline none
+		
+@media screen and (min-width: 990px)
+	.header
+		text-align left
+		position fixed
+		top 0
+		left 0
+		right 0
+		z-index 999
+		box-shadow 1px 1px 2px rgba(0,0,0,.75)
+		
+		&-contact
+			float right
+			padding 1.5rem 0
+			&-item
+				display inline-block
+				vertical-align middle
+				margin 0 .5rem
+		&-menu
+			display block
+			position static
+			background-color transparent
+			border-top 1px solid #e7e7e7
+			margin-top .5rem
+			
+			&-item
+				display inline-block
+			&-link
+				color #000
+				padding .8rem
+				&:hover
+					background-color transparent
+					color turquesa
+		&-btn-menu
+			display none
+			
+	
+
+
+.banner
+	display none
+	width 100%
+	height 845px
+	position relative
+	.owl-item
+		&.active
+		&.cloned	
+			span
+				animation-name: bounceInUp;
+				animation-duration: 1s;
+				/*&:nth-child(1)
+					animation-name: bounceInUp;
+					animation-duration: 1s;
+					
+				&:nth-child(2)
+					animation-name: bounceInUp;
+					animation-duration: 1s;
+					animation-delay: .5s;
+					
+				&:nth-child(3)
+					animation-name: bounceInUp;
+					animation-duration: 1s;
+					animation-delay: 1s;*/
+					
+			h1
+			p	
+				animation-name: fadeInDown;
+				animation-duration: 1s;
+				
+			/*p
+				animation-name: fadeInDown;
+				animation-duration: 1s;
+				animation-delay: 1s;*/
+	.item 
+		background-size cover
+		background-repeat no-repeat
+		background-position top center
+		height 845px
+		position relative
+		&-info
+			position absolute
+			top 50%
+			transform translate(0, -50%)
+			color white
+			&.txt-center
+				left 0
+				right 0
+			
+			span
+				display block
+				font-size 4rem
+				text-transform uppercase
+				font-family 'Raleway'
+				font-weight 800
+				line-height 3.5rem
+				position relative
+				text-shadow 1px 1px 2px rgba(0,0,0,.75)
+				
+				&:first-child
+					padding-top .8rem
+					&:before
+						position absolute
+						display block
+						content ""
+						width 60px
+						height 4px
+						left 0
+						top 0
+						background-color turquesa
+			h1 
+				text-transform uppercase
+				font-size 4rem
+				color white
+				margin-bottom 1rem
+				position relative
+				padding-bottom 2rem
+				text-shadow 1px 1px 2px rgba(0,0,0,.75)
+				
+				&:before
+					position: absolute;
+					display: block;
+					content: "";
+					width: 60px;
+					height: 4px;
+					bottom: 0;
+					left: 50%;
+					margin-left: -20px;
+					background-color turquesa
+			p
+				font-size 2rem
+				text-shadow 1px 1px 2px rgba(0,0,0,.75)
+				
+						
+			
+	img 
+		display block
+		width 100%
+	.owl-dots
+		display none !important
+	
+		
+	.owl-prev
+	.owl-next
+		position absolute
+		top 50%
+		transform translate(0, -50%)
+		font-family: 'icomoon' !important;
+		color white
+		font-size 4rem
+			
+	.owl-prev
+		left 1rem
+		&:before
+			content: "\f104";
+			opacity 1
+	.owl-next
+		right 1rem
+		&:before
+			content: "\f105";
+			opacity 1
+		
+@media screen and (min-width: 990px)
+	.banner
+		display block
+
+.services
+	padding-top 100px
+	padding-bottom 100px
+	position relative
+	z-index 2
+	background-color #1B2936
+	&-container
+		
+		display flex
+		flex-wrap wrap 
+		justify-content space-between
+	
+	&-item
+		margin-top -318px
+		width 32%
+		
+		
+	&-media
+		position relative
+		overflow hidden
+		&:hover
+			img 
+				transform: scale(1.3);
+				opacity: 0.7;
+			a
+				background-color cafe
+				i 
+					 background-color #000
+		img 
+
+			display block
+			width 100%
+			opacity 1
+			transition: all 2s ease-in-out 0s;
+		a 
+			position absolute
+			bottom 0
+			right 0
+			background-color turquesa
+			color white
+			padding-left .5rem
+			display block
+			span 
+				display inline-block
+				vertical-align middle
+			i 
+				background-color #303534
+				padding 8px 16px
+				font-size 18px
+				display inline-block
+				vertical-align middle
+				transition all .5s ease
+			
+	&-info
+		padding 20px
+		background-color white
+		a 
+			color verde
+			text-transform uppercase
+		h3
+			position relative
+			padding-top .5rem
+			&:after
+				position absolute
+				display block
+				content ""
+				width 40px
+				height 3px
+				left 0
+				top 0
+				background-color #E2DAC7
+
+.shuttle
+	padding-top 3rem
+	padding-bottom 3rem
+	text-align center
+	&-title
+		margin-bottom 0
+	&-subtitle
+		position relative
+		padding-bottom .5rem
+		text-transform uppercase
+		&:after
+			position: absolute;
+			display: block;
+			content: "";
+			width: 40px;
+			height: 3px;
+			bottom: 0;
+			left: 50%;
+			margin-left: -20px;
+			background-color turquesa
+	&-container
+		display flex
+		flex-wrap wrap
+		justify-content space-around
+		text-align left
+	&-ul 
+		list-style none
+		li 
+			&:before
+				content '\f207'
+				font-family 'FontAwesome'
+				padding-right .5rem
+				color turquesa
+.fleet 
+	margin-top 2rem
+
+.tours
+	background-color #1B2936
+	&-info
+	&-img
+		display inline-block
+		vertical-align top
+	&-info
+		width 100%//45%
+		padding-top 3rem
+		padding-bottom 3rem
+		color white
+		padding-left 1rem
+		padding-right 1rem
+	&-img
+		display none
+		background-position center center
+		background-size cover
+		background-repeat no-repeat
+		width 50%
+		min-height 493px
+		float right
+	&-ul
+		margin-left 25px
+		list-style none 
+		li 
+			margin-bottom 2rem
+			font-size 1.3rem
+			&:before
+				content '\f192'
+				font-family 'FontAwesome'
+				padding-right 1rem
+				color verde
+		a 
+			display inline-block
+			color white
+			&:hover
+				color #e2dac7
+	&-title
+		color white
+		text-transform uppercase
+		font-size 1.5rem
+		position relative
+		padding-top .3rem
+		&:before
+			position absolute
+			display block
+			content ""
+			width 40px
+			height 3px
+			left 0
+			top 0
+			background-color turquesa
+			
+		
+	
+@media screen and (min-width: 900px)
+	.tours
+		&-img 
+			display block
+		&-info
+			width 45%
+			padding-left 15%
+			padding-right 0
+@media screen and (min-width: 1400px)				
+	.tours
+		&-info
+			padding-left 20%
+
+.tour
+	&-banner
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+		height 400px
+		width 100%
+
+.testimonials
+	background-color turquesa
+	padding-top 3rem
+	padding-bottom 3rem
+	color white
+	text-align center
+	&-item
+		position relative 
+		.fa-quote-left
+		.fa-quote-right
+			position absolute
+			font-size 2.5rem	
+		.fa-quote-left	
+			left 0
+			top 0
+		.fa-quote-right
+			right 0
+			bottom 0
+	
+			
+	h3 
+		font-size 2rem
+		margin-bottom .5rem
+.wedding
+	padding-top 3rem
+	padding-bottom 3rem
+	
+	&-container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	&-item
+		width 30%
+		h3
+			position relative
+			padding-top .5rem
+			&:before
+				position absolute
+				display block
+				content ""
+				width 40px
+				height 3px
+				left 0
+				top 0
+				background-color turquesa
+
+.partners
+	background-color #f6f6f6
+	padding-bottom 2rem
+	padding-top 2rem
+	text-align center
+	&-item
+		display inline-block
+		vertical-align top
+		padding .5rem
+		img 
+			display block
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+			transition all .5s ease
+			&:hover
+				-webkit-filter: grayscale(0);
+				filter: grayscale(0);
+.footer
+	background-color #25272E
+	padding-top 3rem 
+	padding-bottom 3rem
+	color white
+	font-size 13px
+	text-align center
+	&-container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	
+	h3 
+		margin-bottom 0
+		color white
+		text-transform uppercase
+	.copy
+		a 
+			display inline-block
+			vertical-align middle
+			font-size 2rem
+			color white
+	.contact
+		ul 
+			text-align left
+	.social 
+		&-item
+			display inline-block
+			vertical-align top 
+			font-size 1.5rem
+			color white
+			padding .5rem
