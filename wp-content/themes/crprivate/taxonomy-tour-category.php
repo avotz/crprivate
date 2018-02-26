@@ -8,7 +8,7 @@ $categorySelected = get_query_var('tour-category');
 get_header(); ?>
 <section class="servicestours">
 		<div class="inner">
-			<h1>Our tours</h1>
+			<h1>Our <?php the_title(); ?></h1>
 			<div class="services-container" >
 				
 				 <?php
