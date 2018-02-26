@@ -4,11 +4,12 @@
  */
 
 $categorySelected = get_query_var('tour-category');
-
+$category = get_category_by_slug($categorySelected);
+var_dump($category);
 get_header(); ?>
 <section class="servicestours">
 		<div class="inner">
-			<h1>Our <?php echo get_category_by_slug( $categorySelected ); ?></h1>
+			<h1>Our <?php echo $category->name ?></h1>
 			<div class="services-container" >
 				
 				 <?php
