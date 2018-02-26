@@ -4,7 +4,7 @@
  */
 
 $categorySelected = get_query_var('tour-category');
-$category = get_category_by_slug($categorySelected);
+$category = get_term_by('slug', $categorySelected, 'tour-category');
 var_dump($category);
 get_header(); ?>
 <section class="servicestours">
