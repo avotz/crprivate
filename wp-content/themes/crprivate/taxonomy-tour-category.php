@@ -4,7 +4,7 @@
  */
 
 $categorySelected = get_query_var('tour-category');
-var_dump($categorySelected);
+
 get_header(); ?>
 <section class="servicestours">
 		<div class="inner">
@@ -21,6 +21,15 @@ get_header(); ?>
                         'orderby' => array('menu_order' => 'ASC', 'title' => 'ASC'),
                         'posts_per_page' => 12,
                         'paged' => $paged,
+                        'tax_query' => array(
+
+                            array(
+                                'taxonomy' => 'tour-category',
+                                'field' => 'slug',
+                                'terms' => $categorySelected,
+                            ),
+
+                        )
 
 
                     );
