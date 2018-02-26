@@ -3,7 +3,8 @@
  * 
  */
 
-
+$categorySelected = get_query_var('tour-category');
+var_dump($categorySelected);
 get_header(); ?>
 <section class="servicestours">
 		<div class="inner">
