@@ -35,7 +35,7 @@
 			<a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.jpeg" alt="Costa Rica Private Tours" /></a>
 			
 			<div class="header-contact">
-				<div class="header-contact-item"><i class="icon-phone"></i> (506) 2667-1132</div>
+				<div class="header-contact-item"><i class="icon-phone"></i> (506) 8826-5425</div>
 				<div class="header-contact-item">
 					<a href="#" class="social-item"><i class="icon-facebook"></i></a>
 					<a href="#" class="social-item"><i class="icon-twitter"></i></a>

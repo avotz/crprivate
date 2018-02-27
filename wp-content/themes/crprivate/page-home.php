@@ -10,8 +10,8 @@ get_header(); ?>
 	  	  <div class="item" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner1.jpg');">
 	  	  	<div class="inner">
 	  	  		<div class="item-info txt-center">
-	  	  			<h1>Private tours</h1>
-	  	  			<p>Costa Rica</p>
+	  	  			<h1>Costa Rica</h1>
+	  	  			<p>Private tours</p>
 	  	  			
 	  	  		</div>
 	  	  		
@@ -35,21 +35,7 @@ get_header(); ?>
     <section class="services">
 		<div class="inner">
 			<div class="services-container">
-				<div class="services-item">
-					<div class="services-media">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/shuttle-services.jpg" alt="Shuttle" />
-						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" class="services-link ">
-							<span>Read More</span> <i class="icon-angle-right"></i>
-						</a>
-					</div>
-					<div class="services-info">
-						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" ><h3>Shuttle Services</h3></a>
-						<p>
-							We serve the following destinations to/from Nat Costa Ricaingo - Conchal - Playa Grande - Pinilla
-						</p>
-					</div>
-					
-				</div>
+				
 				<div class="services-item">
 					<div class="services-media">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/tours-activities.jpg" alt="Tours" />
@@ -77,6 +63,21 @@ get_header(); ?>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis rem possimus ipsam odit vel 
 						</p>
 					</div>
+				</div>
+				<div class="services-item">
+					<div class="services-media">
+						<img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/shuttle-services.jpg" alt="Shuttle" />
+						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" class="services-link ">
+							<span>Read More</span> <i class="icon-angle-right"></i>
+						</a>
+					</div>
+					<div class="services-info">
+						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" ><h3>Shuttle Services</h3></a>
+						<p>
+							We serve the following destinations to/from Nat Costa Ricaingo - Conchal - Playa Grande - Pinilla
+						</p>
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -115,7 +116,7 @@ get_header(); ?>
 			<p>Featured tours with different activities and ecosystems</p>
 			<ul class="tours-ul">
 					<li> <a href="<?php echo esc_url(home_url('/tour/palo-verde-national-park-dry-forest-boat-tour/')); ?>">Palo verde</a></li>
-					<li> <a href="<?php echo esc_url(home_url('/tour/guachipelin-adventure-tour/')); ?>">Guachipelin</a></li>
+					<li> <a href="<?php echo esc_url(home_url('/tour/borinquen-adventure-tour/')); ?>">Borinquen</a></li>
 					<li> <a href="<?php echo esc_url(home_url('/tour/nicaragua-tour-overnight/')); ?>">Nicaragua</a></li>
 					<li> <a href="<?php echo esc_url(home_url('/tour/white-water-rafting/')); ?>">White Water Rafting</a></li>
 					<li> <a href="<?php echo esc_url(home_url('/tour/rain-forest-arenal-volcano-full-day-tour-combinations/')); ?>">Arenal Volcano</a></li>
@@ -129,8 +130,8 @@ get_header(); ?>
 		<div class="inner">
 			<div class="testimonials-item">
 				<i class="fa fa-quote-left"></i>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h3>
-				<p>Magni laborum asperiores eaque sapiente ut dolorem molestiae necessitatibus ullam laudantium veritatis enim fuga dignissimos maiores </p>
+				<h3>Ask about our corporate rates for groups or large families! </h3>
+				
 				<i class="fa fa-quote-right"></i>
 			</div>
 		</div>
