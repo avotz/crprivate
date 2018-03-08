@@ -16,7 +16,15 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15684.919025455205!2d-85.4281962!3d10.639251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x756af3ebd14361a2!2sAvotz+Web+Works!5e0!3m2!1ses-419!2s!4v1442615525574" width="600" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+               <div id="TA_selfserveprop883" class="TA_selfserveprop">
+                <ul id="4uFj30FQ" class="TA_links sdD4wATQjr">
+                <li id="RjmsEeFx" class="MBn5aHrtgRk7">
+                <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+                </li>
+                </ul>
+                </div>
+                <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=883&amp;locationId=2149604&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
+
                 
             </div>
         </div>

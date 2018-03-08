@@ -20,12 +20,34 @@ get_header(); ?>
 	  	  <div class="item" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner2.jpg');">
 	  	  		<div class="inner">
 	  	  		<div class="item-info">
-	  	  			<span >Full day tours</span>
-	  	  			<span >Half day tours</span>
-	  	  			<span >Water Sports</span>
+	  	  			<span >Land tours</span>
+	  	  			<span >Water tours</span>
+	  	  			<span >Shuttle Services</span>
 	  	  		</div>
 	  	  		
 	  	  		
+				</div>
+			</div>
+			<div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/banner3.jpg');">
+	  	  		<div class="inner">
+	  	  		<div class="item-info">
+	  	  			<span >Land tours</span>
+	  	  			<span >Water tours</span>
+	  	  			<span >Shuttle Services</span>
+	  	  		</div>
+	  	  		
+	  	  		
+				</div>
+			</div>
+			 <div class="item" style="background-image: url('<?php echo esc_url(get_template_directory_uri()); ?>/img/banner4.jpg');">
+	  	  		<div class="inner">
+	  	  		<div class="item-info">
+	  	  			<span >Land tours</span>
+	  	  			<span >Water tours</span>
+	  	  			<span >Shuttle Services</span>
+	  	  		</div>
+	  	  		
+	  	  		</div>
 	  	  	</div>
 	  	  </div>
 	  	  	  
@@ -46,7 +68,7 @@ get_header(); ?>
 					<div class="services-info">
 						<a href="<?php echo esc_url(home_url('/tour-category/land-tours/')); ?>" ><h3>Land Tours</h3></a>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis rem possimus ipsam odit vel 
+							Enjoy our great variety of land adventures for the whole family and at the same time great adrenaline for groups of friends.
 						</p>
 					</div>
 				</div>
@@ -60,7 +82,7 @@ get_header(); ?>
 					<div class="services-info">
 						<a href="<?php echo esc_url(home_url('/tour-category/water-tours/')); ?>" class=""><h3>Water Tours</h3></a>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis rem possimus ipsam odit vel 
+							The aquatic activities will take you to enjoy rafting, snorkeling and great biodiversity !!
 						</p>
 					</div>
 				</div>
@@ -74,7 +96,7 @@ get_header(); ?>
 					<div class="services-info">
 						<a href="<?php echo esc_url(home_url('/shuttle-services')); ?>" ><h3>Shuttle Services</h3></a>
 						<p>
-							We serve the following destinations to/from Nat Costa Ricaingo - Conchal - Playa Grande - Pinilla
+							 High quality transportation services with 100% Costa Rican human touch.
 						</p>
 					</div>
 					
@@ -136,33 +158,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section id="wedding" class="wedding">
-		<div class="inner">
-			
-				<h1 class="wedding-title">Lorem ipsum</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corporis alias, eveniet eum ipsum expedita recusandae cum a dolorem, unde ratione aperiam? Nobis adipisci et tempore quia, tempora quibusdam accusantium. </p>
-				<div class="wedding-container">
-					<div class="wedding-item">
-						<h3>lorem ipsum</h3>
-						<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corporis alias, eveniet eum ipsum expedita recusandae cum a dolorem, unde ratione aperiam? Nobis adipisci et tempore quia, tempora quibusdam accusantium.</p>
-					</div>
-					<div class="wedding-item">
-						<h3>lorem ipsum</h3>
-						<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corporis alias, eveniet eum ipsum expedita recusandae cum a dolorem, unde ratione aperiam? Nobis adipisci et tempore quia, tempora quibusdam accusantium.</p>
-					</div>
-					<div class="wedding-item">
-						<h3>lorem ipsum</h3>
-						<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corporis alias, eveniet eum ipsum expedita recusandae cum a dolorem, unde ratione aperiam? Nobis adipisci et tempore quia, tempora quibusdam accusantium.</p>
-					</div>
-
-				</div>
-				
-			
-		</div>
-	</section>
+	
 	
 	<section class="partners">
 		<div class="inner">

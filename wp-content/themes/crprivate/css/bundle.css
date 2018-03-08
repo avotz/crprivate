@@ -1419,6 +1419,9 @@ textarea{
     height: 450px;
     width: 100%
   }
+  .contact-container #CDSWIDSSP{
+     width: 100% !important;
+  }
 @media screen and (min-width: 900px) {
   .contact-container .col-md-6{
     width: 48%;
