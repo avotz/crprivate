@@ -68,7 +68,7 @@ get_header(); ?>
 					<div class="services-info">
 						<a href="<?php echo esc_url(home_url('/tour-category/land-tours/')); ?>" ><h3>Land Tours</h3></a>
 						<p>
-							Enjoy our great variety of land adventures for the whole family and at the same time great adrenaline for groups of friends.
+							Land adventures for the whole family, great adrenaline for groups of friends.
 						</p>
 					</div>
 				</div>
