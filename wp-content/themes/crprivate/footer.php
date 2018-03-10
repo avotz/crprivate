@@ -26,7 +26,7 @@
 						<h3>Contact Us</h3>
 						<ul>
 							<li>Information: (506)8826-5425</li>
-							<li>Information 2: (506)2667-1132</li>
+							<li><a href="mailto::info@costaricaprivate.net">info@costaricaprivate.net</a> </li>
 							
 						</ul>
 						
