@@ -36,7 +36,8 @@
 				<div class="footer-item">
 					<h3>Get in Touch</h3>
 					<div class="social">
-						<a href="#" class="social-item"><i class="icon-facebook"></i></a>
+						<a href="https://www.facebook.com/Costa-Rica-Private-Tours-149812958422247/
+" class="social-item" target="_blank"><i class="icon-facebook"></i></a>
 						<a href="https://www.tripadvisor.com.mx/Attraction_Review-g309240-d2149604-Reviews-Costa_Rica_Private_Tours-Liberia_Province_of_Guanacaste.html" class="social-item" target="_blank"><i class="fa fa-tripadvisor"></i></a>
 					</div>
 				</div>

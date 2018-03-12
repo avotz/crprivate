@@ -60,7 +60,7 @@ get_header(); ?>
 				
 				<div class="services-item">
 					<div class="services-media">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/tours-activities.jpg" alt="Tours" />
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/land-tours.jpg" alt="Tours" />
 						<a href="<?php echo esc_url(home_url('/tour-category/land-tours/')); ?>" class="services-link ">
 							<span>Read More</span> <i class="icon-angle-right"></i>
 						</a>
