@@ -83,7 +83,8 @@ get_header(); ?>
                
                 ?>
 
-			
+                <?php the_posts_pagination(array('mid_size' => 2));
+				wp_reset_postdata(); ?>
 				
 			</div>
 		</div>

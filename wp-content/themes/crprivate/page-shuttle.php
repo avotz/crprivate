@@ -41,7 +41,7 @@ get_header(); ?>
 						'post_type' => 'shuttle-service',
                         //'order' => 'ASC',
 						'orderby' => array('menu_order' => 'ASC', 'title' => 'ASC'),
-						'posts_per_page' => 12,
+						'posts_per_page' => 20,
 						'paged' => $paged,
 
 
